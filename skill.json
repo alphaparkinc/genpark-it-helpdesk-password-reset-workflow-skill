@@ -1,0 +1,27 @@
+{
+  "name": "genpark-it-helpdesk-password-reset-workflow-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - IT helpdesk password reset and access request workflow.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "operations",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "user_id": {
+      "type": "str"
+    },
+    "service": {
+      "type": "str"
+    }
+  },
+  "outputs": {
+    "status": {
+      "type": "str"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
